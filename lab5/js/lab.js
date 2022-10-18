@@ -4,6 +4,8 @@
 * License: Public Domain
 */
 
+console.log("we got this far, yo")
+
 // Define Variables
 make = "honda";
 model = "Civic";
