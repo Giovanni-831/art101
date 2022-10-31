@@ -1,20 +1,21 @@
 /*
-* Author: Giovanni Lomeli <glomelim@ucsc.edu>
-* created: October 30
-* lincense: public Domain
+* summary. (use period)
+*
+*Description. (use period)
+*
+*@Link URL
+*@file this files defines the MyClass class.
+*@author Aakaash and Gio.
+*@since x.x.x
 */
 
-// Define Variables
+/** jshint (inline configuration here) */
 
-
-
-
-
-// calcualte
-
-
-
-//output
-document.writeln
-document.writeln
-document.writeln
+//print the board beore each turn
+  //Loop through each ro
+   //Loop though each space
+  // print newlline at the end of each row
+  //see if anyone has 4 in a row, either horizontally, vertically or diagonally
+  //if computer has 4 in a row, print "you lose"
+  //if user has 4 in a row, print "you win"
+  //if all the tiles are filied and no one has 4 in a row, print "Draw"
