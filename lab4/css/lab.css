@@ -1,0 +1,18 @@
+h1 {
+  color:blue;
+  front-size: 100%
+}
+
+p{
+  font-family: fantasy;
+  text-indent: 50px;
+  margin-left: 30px;
+  color: orange;
+}
+
+#content {
+  width: 1000px;
+  width; 15px;
+  margin 25px;
+  font-size 35px;
+}
