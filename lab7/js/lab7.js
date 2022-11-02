@@ -10,8 +10,8 @@ function sortName() {
   //split string to array
   var nameArray = userName.split('');
   console.log("nameArray =", nameArray);
-  // sort the nameArray
-  var nameArraysort = nameArray.sort();
+  // sort the array
+  var nameArraySort = nameArray.sort();
   console.log("nameSorted = ", nameArraySort);
   // join array back to a string
   var nameSorted = nameArraySort.join('');
