@@ -4,14 +4,14 @@
 * License: Public Domain
 */
 
-function sortname() {
-  var userName = window.promt("please tell me your name:");
+function sortName() {
+  var userName = window.prompt("please tell me your name:");
   console.log("username =", userName);
   //split string to array
   var nameArray = userName.split('');
   console.log("nameArray =", nameArray);
   // sort the nameArray
-  car name Arraysort = nameArray.sort();
+  var name Arraysort = nameArray.sort();
   console.log("nameSorted = ", nameArraySort);
   // join array back to a string
   var nameSorted = nameArraySort.join('');
