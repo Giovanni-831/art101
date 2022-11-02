@@ -1,6 +1,12 @@
 h1 {
   color:purple;
-  font-size: 100%
+  font-size: 350%;
+  text-align: center;
+}
+
+h2{
+  color: green;
+  text-align: center;
 }
 
 p {
@@ -12,7 +18,7 @@ p {
 
 #content {
   background-color: lightblue;
-  width: 600px;
+  width: 1500px;
   padding: 10px;
   margin: 20px;
   font-size: 30px;
