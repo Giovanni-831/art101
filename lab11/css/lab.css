@@ -1,0 +1,19 @@
+h1 {
+  color:purple;
+  font-size: 100%
+}
+
+p {
+  font-family: fantasy;
+  text-indent: 50px;
+  margin-left: 10px;
+  color: red;
+}
+
+#content {
+  background-color: lightblue;
+  width: 600px;
+  padding: 10px;
+  margin: 20px;
+  font-size: 30px;
+}
