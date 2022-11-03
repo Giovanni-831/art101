@@ -2,19 +2,36 @@
 * Author: Giovanni Lomeli <glomelim@ucsc.edu>
 * License: Public Domain
 */
-//find the target elment
-var buttonEl = document.getElementByid("mybutton");
-buttonEl.addEventListener("click", function(){
-
-// use this input to change the text from'hello, World!' to 'Hello' + the user's names
-// find the element
-var nameEl = document.getElementById("name");
-nameEl.innerHTML = name;
-// or we can do this in one step, like this:
-// document.getelementById("name").innerHTML = name;
-
+function shuffleArray(array){
+  var currentIndex = array.length, temporaryValue, randomIdex;
+  while (0 !== currentIndex){
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    temporaryValue = array(currentIndex);
+    array[currentIndex] = array[randomIdex];
+    array[randomIndex] = tempoararyValue;
+  }
 }
 
-// Output
-document.writeln("Hey, I fixed your name: ",
-  sortName(), "</br>");
+function toTitleCase(str){
+  return str.replace(
+    /\w\S*g,
+    function(txt){
+      return txt.charAt(0).toUpper() + txt.substr(1).toLowerCase();
+    }
+  };
+}
+
+buttonEl = document.getElementById("my-button");
+console.log("buttom element:", buttonEl);
+
+inputEl = document.getElementById("user-name");
+console.log("in
+
+outputEl = document.getElementById("output");
+console.log("output element:", outputEl);
+
+buttonEl.addEventListener("click", function(){
+  var userName = inputEl.value;
+  var newName + toTitlecase(reorderUserName(userName));
+  outputEl.innerHTML = "<p id=name-results>" + newName + "</p>";
+});
