@@ -1,23 +1,18 @@
 /*
 * Author: Giovanni Lomeli <glomelim@ucsc.edu>
-* Author: Aakaash Naraannan <anaraya4@ucsc.edu
 * License: Public Domain
 */
+//find the target elment
+var buttonEl = document.getElementByid("mybutton");
+buttonEl.addEventListener("click", function(){
 
-function sortName() {
-  var userName = window.prompt("please tell me your name:");
-  console.log("username =", userName);
-  //split string to array
-  var nameArray = userName.split('');
-  console.log("nameArray =", nameArray);
-  // sort the array
-  var nameArraySort = nameArray.sort();
-  console.log("nameSorted = ", nameArraySort);
-  // join array back to a string
-  var nameSorted = nameArraySort.join('');
-  console.log("nameSorted = ", nameSorted);
+// use this input to change the text from'hello, World!' to 'Hello' + the user's names
+// find the element
+var nameEl = document.getElementById("name");
+nameEl.innerHTML = name;
+// or we can do this in one step, like this:
+// document.getelementById("name").innerHTML = name;
 
-  return nameSorted;
 }
 
 // Output
