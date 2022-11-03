@@ -1,16 +1,25 @@
 /*
 * Author: Giovanni Lomeli <glomelim@ucsc.edu>
-*License: Public Domain
+* Author: Aakaash Naraannan <anaraya4@ucsc.edu
+* License: Public Domain
 */
-var outputEl = document.getElementByid("output");
 
+function sortName() {
+  var userName = window.prompt("please tell me your name:");
+  console.log("username =", userName);
+  //split string to array
+  var nameArray = userName.split('');
+  console.log("nameArray =", nameArray);
+  // sort the array
+  var nameArraySort = nameArray.sort();
+  console.log("nameSorted = ", nameArraySort);
+  // join array back to a string
+  var nameSorted = nameArraySort.join('');
+  console.log("nameSorted = ", nameSorted);
 
-var new1El = document.createElement("p");
-new1El.innerHTML = "Hello, my name is Gio";
-new1El.appendChild(new1El);
-new1El.style.color='blue';
+  return nameSorted;
+}
 
-var new2El = document.createelement("p");
-new2El.innerHTML = "Giovanni love pizza";
-outputEl.appendChild(new2El);
-new2El.style.fontSize="20pt";
+// Output
+document.writeln("Hey, I fixed your name: ",
+  sortName(), "</br>");
