@@ -16,6 +16,13 @@ $("button.red").click(function(){
 $("#target").toggleClass("red")
 });
 
+// add event handler for green Button
+$("button.green").click(function(){
+  // remove possible existing class ClassName
+  $("#target").removeClass("red");
+  // now toggle red class
+  $("target").toggleClass("green")
+});
 
 k.fn.init {div#headshot}()
   0: div# headshot
