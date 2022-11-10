@@ -5,7 +5,7 @@ h1 {
 }
 
 h2{
-  color: green;
+  color: Purple;
   text-align: center;
 }
 
@@ -17,7 +17,7 @@ p {
 }
 
 #content {
-  background-color: lightblue;
+  background-color: darkblue;
   width: 1500px;
   padding: 10px;
   margin: 20px;
