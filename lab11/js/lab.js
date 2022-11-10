@@ -8,8 +8,16 @@ var content = document.getElementById("content").innerHTML;
 // setting the html
 document.getElementById("box").innerHTML = content;
 
+// add event handler for red Button
+$("button.red").click(function(){
+  // remove possibe existing class
+  $("#target").removeClass("green");
+// now toggle red class
+$("#target").toggleClass("red")
+});
 
-k.fn.init {div#headshot}
+
+k.fn.init {div#headshot}()
   0: div# headshot
   length: 1
   [ [Prototype]]: object (0)
