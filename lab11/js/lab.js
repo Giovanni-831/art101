@@ -2,6 +2,12 @@
 * Author: Giovanni Lomeli <glomelim@ucsc.edu>
 * License: Public Domain
 */
+// getting the html
+var content = document.getElementById("content").innerHTML;
+
+// setting the html
+document.getElementById("box").innerHTML = content;
+
 
 k.fn.init {div#headshot}
   0: div# headshot
