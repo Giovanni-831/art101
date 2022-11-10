@@ -4,6 +4,17 @@ h1 {
   text-align: center;
 }
 
+.red{
+  color: red;
+}
+.green{
+  color: green;
+  #target {
+    font-weight: bold;
+    font-size: 60px
+  }
+}
+
 h2{
   color: blue;
   text-align: center;
