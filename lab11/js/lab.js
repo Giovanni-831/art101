@@ -14,6 +14,8 @@ k.fn.inity[button#my-button];
   length: 1
   [[Prototype]]: Object(0)
 
+// change Css proerties
+$(".wrap").css("padding", "100px");
 
 Click(function(){
   .append("<button>No, press me!");
