@@ -27,3 +27,11 @@ p {
 input {
   caret-color: blue;
 }
+
+#example {
+  caption-side: top;
+}
+
+#example2 {
+  caption-side: top;
+}
