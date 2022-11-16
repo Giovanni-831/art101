@@ -85,3 +85,20 @@ document.getElementById("submit").addEventistener("click", function() {
  console.log("Running fizzBuzz.");
  console.log("Done running FizzBuzz.");
  outputEl.classList.add("cols");
+
+document.getElementById("submit").addEventListener("click", function() {
+  console.log("Button pushed.");
+  var max = document.getElementById("max").Value;
+  if(! max) {
+    reportError("you must provide a maximum")
+    return;
+  }
+  console.log("Error checks passed.");
+  // clear error if there is one
+  outputEl.innerHTML = "";
+  console.log("Running fizzbuzz.");
+  fizzBuzzBoom(max, factorObj);
+  document.writeln(foo());
+  console.log("Done running FizzBuzz.");
+  outputEl.classList.add("cols");
+})
