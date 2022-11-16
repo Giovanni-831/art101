@@ -13,11 +13,11 @@ p {
   font-family: fantasy;
   text-indent: 50px;
   margin-left: 10px;
-  color: OrangeRed;
+  color: tan;
 }
 
 #content {
-  background-color: IndianRed;
+  background-color: darkred;
   width: 2000px;
   padding: 10px;
   margin: 20px;
