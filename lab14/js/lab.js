@@ -23,6 +23,18 @@ function sortingHat(str){
   }
 }
 
+function getFactorObj() {
+  var factorObj = {};
+  for (var factor=0; factor<maxFactors; factor++) {
+    numId = "num" + factor;
+    textId = "text" + factor;
+    numValue = document.getElementById(numId).value;
+    textValue = document.getElementById(textId).value;
+    debugger;
+    console.log(factor + ") num", numValue, "text:", textValue)
+  }
+}
+
 var myButton = document.getElementById("button");
 myButton.addEventListener("click", function(){
   var name = document.getElementById("input").value;
@@ -73,4 +85,3 @@ document.getElementById("submit").addEventistener("click", function() {
  console.log("Running fizzBuzz.");
  console.log("Done running FizzBuzz.");
  outputEl.classList.add("cols");
- 
