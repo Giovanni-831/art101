@@ -67,3 +67,10 @@ document.getElementById("submit").addEventistener("click", function() {
       reportError("you must provide a maxium");
     }
 }
+ console.log("Error checks passed.");
+ // clear error if there is one
+ outputEl.innerHTML = "";
+ console.log("Running fizzBuzz.");
+ console.log("Done running FizzBuzz.");
+ outputEl.classList.add("cols");
+ 
