@@ -35,6 +35,33 @@ function getFactorObj() {
   }
 }
 
+// give a number and an object that looks like this;
+// { 3: "Fizz", 5: "Buzz", 7: "Boom")
+// loops over the numbers and outputs the number and the matching text
+// for maxFactors
+function fizzBuzzBoom(maxNums, factorObj) {
+  // iterate ober all of out numbers
+  for (var num=0; num<maxNums; num++) {
+    // reset output string
+    var outputStr + "";
+    // iterate over the facotrs we got from the innerhtml
+    for (var factor in factorObj) {
+      // check to see if this num is a multiple of factor
+      if (num % factor == 0) {
+        // if yes, than add the text to output string
+        outputStr += factorObj[factor];
+      }
+    }
+    // now if we have words in outputStr, format it like this " - FizzBuzz!"
+    if (outputStr) {
+        outputStr = " - " + outputStr + "!";
+    }
+    outpuToPage(num.toString() + putputStr)
+  }
+}
+function reportError(str) {
+  outputEl.innerHTML ="<div class='error'>" + str + "</div";
+}
 var myButton = document.getElementById("button");
 myButton.addEventListener("click", function(){
   var name = document.getElementById("input").value;
