@@ -1,0 +1,37 @@
+h1 {
+  color: cornflowerBlue;
+  font-size: 350%;
+  text-align: center;
+}
+
+h2{
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: fantasy;
+  text-indent: 50px;
+  margin-left: 10px;
+  color: tan;
+}
+
+#content {
+  background-color: darkred;
+  width: 1500px;
+  padding: 10px;
+  margin: 20px;
+  font-size: 30px;
+}
+
+input {
+  caret-color: blue;
+}
+
+#example {
+  caption-side: top;
+}
+
+#example2 {
+  caption-side: top;
+}
