@@ -7,7 +7,7 @@ h1 {
 }
 
 h2{
-  color: Darkred;
+  color: coral;
   text-align: center;
 }
 
@@ -19,7 +19,7 @@ p {
 }
 
 #content {
-  background-color: DarkSlateGray;
+  background-color: MidnightBlue;
   width: 1500px;
   padding: 10px;
   margin: 20px;
