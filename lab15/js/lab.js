@@ -48,16 +48,19 @@ function sortingHat(str){
   len = str.length;
   mod = len % 4;
   if (mod == 0){
-    return "Gryffindor"
+    return "Heavy Outfit"
   }
   else if (mod ==1){
-    return "Ravenclaw"
+    return "Summer Outfit"
   }
   else if (mod == 2){
-    return "Slytherin"
+    return "Medium T-shirt and Jeans"
   }
   else if (mod == 3){
-    return "Hufflepuff"
+    return "Raincoats"
+  }
+  else if (mod==4) {
+    return "Funny Outoft"
   }
 }
 
