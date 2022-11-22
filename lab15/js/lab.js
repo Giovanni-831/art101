@@ -20,6 +20,11 @@ function getAPIData() {
       // data type we expect back
       dataType : "json",
   })
+  var endpoint = "http://numbersapi.com/random";
+
+  function getAPIData() {
+  	console.log("Running getAPIData");
+
   // If the request succeeds
   // data is passed back
   .done(function(data) {
