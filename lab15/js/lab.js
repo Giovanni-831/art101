@@ -76,6 +76,13 @@ function getFactorObj() {
   }
 }
 
+var myButton = document.getElementById("button");
+myButton.addEventListener("click", function() {
+  var name = document.getElementbyId("input").value;
+  newText ="<p> Your results are your..." + "</p>"
+  document.getElementById("output").innerHTML = newText;
+});
+
 // give a number and an object that looks like this;
 // { 3: "Fizz", 5: "Buzz", 7: "Boom")
 // loops over the numbers and outputs the number and the matching text
