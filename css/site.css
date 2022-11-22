@@ -1,14 +1,39 @@
 
 
-P{
-  color: Purple;
-  font-weight:
+h1 {
+  color: cornflowerBlue;
+  font-size: 350%;
+  text-align: center;
 }
 
-#callout {
-  background-color: tan;
-  padding: 20px;
-  margin: 10px;
-  border: solid 1px black;
-  border-radius: 20px;
+h2{
+  color: Darkred;
+  text-align: center;
+}
+
+p {
+  font-family: "Times New Roman";
+  text-indent: 50px;
+  margin-left: 10px;
+  color: tan;
+}
+
+#content {
+  background-color: DarkSlateGray;
+  width: 1500px;
+  padding: 10px;
+  margin: 20px;
+  font-size: 30px;
+}
+
+input {
+  caret-color: Mediumblue;
+}
+
+#example {
+  caption-side: top;
+}
+
+#example2 {
+  caption-side: top;
 }
