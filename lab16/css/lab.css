@@ -5,7 +5,7 @@ h1 {
 }
 
 h2{
-  color: Darkred;
+  color: Tomato;
   text-align: center;
 }
 
@@ -17,15 +17,15 @@ p {
 }
 
 #content {
-  background-color: DarkSlateGray;
-  width: 1500px;
+  background-color: black;
+  width: 1000px;
   padding: 10px;
   margin: 20px;
   font-size: 30px;
 }
 
 input {
-  caret-color: Mediumblue;
+  caret-color: cornflowerBlue;
 }
 
 #example {
