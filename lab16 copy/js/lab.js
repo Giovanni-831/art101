@@ -24,7 +24,7 @@ $.ajax({
         // do stuff
         console.log(data);
 				$("#headshot").html("<h2>"+data.title);
-				$("#headshot").append("<img src=>"+data.url+">");
+				$("#headshot").append("<img src="+data.url+">");
 				$("#headshot").append("<p>"+data.explanation);
     },
     // What we do if the api call fails
