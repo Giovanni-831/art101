@@ -13,11 +13,11 @@ p {
   font-family: "Times New Roman";
   text-indent: 50px;
   margin-left: 10px;
-  color: tan;
+  color: snow;
 }
 
 #content {
-  background-color: black;
+  background-color: LightSteelBlue;
   width: 1000px;
   padding: 10px;
   margin: 20px;
@@ -26,12 +26,4 @@ p {
 
 input {
   caret-color: cornflowerBlue;
-}
-
-#example {
-  caption-side: top;
-}
-
-#example2 {
-  caption-side: top;
 }
