@@ -1,11 +1,11 @@
 h1 {
-  color: cornflowerBlue;
-  font-size: 350%;
+  color: LightGoldenRodYellow;
+  font-size: 400%;
   text-align: center;
 }
 
 h2{
-  color: Tomato;
+  color: powderBlue;
   text-align: center;
 }
 
@@ -13,11 +13,11 @@ p {
   font-family: "Times New Roman";
   text-indent: 50px;
   margin-left: 10px;
-  color: snow;
+  color: PaleGreen;
 }
 
 #content {
-  background-color: LightSteelBlue;
+  background-color: LightGoldenRodYellow;
   width: 1200px;
   padding: 10px;
   margin: 20px;
